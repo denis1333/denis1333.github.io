@@ -1,0 +1,174 @@
+@import (css) "./font-awesome/css/font-awesome.css";
+@import (css) "./../../block/button/css/button.css";
+@import (css) "./material.min.css";
+
+html{
+	font-family: roboto;
+}
+
+body{
+	margin: 0;
+}
+
+h2{
+	font-weight: 100;
+	font-size: 45px;
+}
+
+p{
+	width: 70%;
+    font-size: 16px;
+}
+
+.button, .button_black{
+	margin-top: 15px;
+}
+
+.wrapper{
+    padding-top: 45px;
+    padding-left: 45px; 
+}
+
+.layer{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.BlockLvl1Top, .BlockLvl1Mid, .BlockLvl1Bot{
+	width: 100%;
+	min-height: 715px;
+	height: 1px;
+}
+
+.BlockLvl3_1{
+	width: 67%;
+    float: left;
+    height: 100%;
+    background: url('../img/back1.png') no-repeat center center;
+    background-size: cover;
+}
+
+.BlockLvl3_2{
+	width: 33%;
+    float: right;
+    background-color: #f3f3f3;
+    height: 100%;
+	i{
+	   	font-size: 40px;
+	}
+}
+
+.BlockLvl3_3{
+	position: relative;
+	float: left;
+    height: 100%;
+    width: 45%;
+    color: white;
+	background: url('../img/back3.png') no-repeat center center;
+	background-size: cover;
+	.layer{
+		background-color: rgba(86,172,195, 0.7);
+	}
+}
+
+.BlockLvl3_4{
+	position: relative;
+	height: 50%;
+	background: url('../img/back6.png') no-repeat center center;
+	background-size: cover;
+	.layer{
+		background-color: rgba(252,239,209, 0.7);
+	}
+}
+
+.BlockLvl3_5{
+	position: relative;
+	height: 50%;
+	color: white;
+	background: url('../img/back2.png') no-repeat center center;
+	background-size: cover;
+	.layer{
+		background-color: rgba(45,52,61, 0.7);
+	}
+}
+
+.BlockLvl3_6{
+	position: relative;
+	height: 100%;
+    float: left;
+    width: 34%;
+    color: white;
+	background: url('../img/back5.png') no-repeat center center;
+	background-size: cover;
+	.layer{
+		background-color: rgba(29,83,103, 0.7);
+	}
+	.author{
+		position: absolute;
+		bottom: 20px;
+		p{
+			width: 100%;
+		}
+	}
+}
+
+.BlockLvl3_7{
+	position: relative;
+	height: 100%;
+    width: 66%;
+    float: right;
+    color: white;
+	background: url('../img/back4.png') no-repeat center center;
+	background-size: cover;
+	.layer{
+		background-color: rgba(83,101,117,0.7);
+	}
+	.nameWrapper{
+		width: 100%;
+		margin-bottom: 20px;
+		input{
+			min-height: 40px;
+		    width: 40%;
+		    margin-right: 30px;
+		}
+	}
+	#message{
+		width: 85%;
+    	min-height: 130px;
+    	padding-top: 5px;
+	}
+	input, #message{
+		border-radius: 16px;
+	    border: 1px solid white;
+	    background: transparent;
+	    padding-left: 5px;
+	    outline: none; 
+	    color: white;
+	}
+
+	input::-webkit-input-placeholder{
+		color: white;
+		text-align: left;
+	}
+
+	#message::-webkit-input-placeholder{
+		color: white;
+		text-align: left;
+	}
+}
+
+.BlockLvl2{
+	float: right;
+    width: 55%;
+    height: 100%;
+}
+
+
+@font-face{
+	font-family: roboto;
+	src: url('./../fonts/Roboto-Light.ttf'); 
+
+}
