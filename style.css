@@ -20,8 +20,8 @@ border : 0;
 }
 
 .elem{
-	height: 200px;
-	width: 200px;
+	height: 50vh;
+	width: 45%;
 	margin: 15px;
 	box-shadow: 0px 0px 10px 1px white;
 	cursor: pointer;
@@ -40,10 +40,12 @@ border : 0;
 }
 
 #port1{
-	background: url("img/port1.png");
+	background: url("img/port1.png") no-repeat;
+	background-size: cover;
 }
 
 #port2{
-	background: url("img/port2.png");
+	background: url("img/port2.png") no-repeat;
 	background-position: center;
+	background-size: cover;
 }

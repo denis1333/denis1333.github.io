@@ -2341,6 +2341,7 @@ body {
 .header {
   display: inline-block;
   width: 100%;
+  matgin-top: 20px;
   text-align: center;
 }
 .header .wrapper {
