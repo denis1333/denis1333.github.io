@@ -1,0 +1,400 @@
+@import (css) "./font-awesome/css/font-awesome.css";
+
+body{
+	margin: 0;
+}
+
+.block1{
+	background-color: rgb(55,205,219);
+	width: 100%;
+	height: 100vh;
+	color: white;
+	position: relative;
+	.text{
+		width: 100%;
+		height: 80vh;
+		display: table;
+		position: relative;
+		.wrapper{
+			display: table-cell;
+			vertical-align: middle;
+			.header{
+				font-size: 41pt;
+    			font-weight: bold;
+			}
+			.body{
+				font-size: 14pt;
+			}
+		}
+		i{
+			position: absolute;
+			padding: 10px;
+			border: 2px solid white;
+			left: 50%;
+			bottom:0px;
+			border-radius: 50%;
+			cursor: pointer;
+		} 
+	}
+	.wripper{
+		text-align: center;
+		display: inline-block;
+		width: 100%;
+		nav{
+			width: 80%;
+			display: inline-block;
+			.logo{
+				float: left;
+			    font-size: 28px;
+    			margin-left: 10%;
+			    font-weight: bold;
+			    margin-top: 53px;
+			    font-family: MontserattM;
+				a{
+					text-decoration: none;
+					color: white;
+				}
+			}
+			.logo:visited{
+				color: white;
+			}
+			.logo:hover{
+				color:white;
+			}	
+			.menu{
+				float: right;
+			    padding: 0px;
+			    margin-top: 49px;
+			    margin-right: 8px;
+			    font-size: 14px;
+			    font-weight: bold;
+			    font-family: MontserattM;
+			    i{
+			    	font-size: 11px;
+    				margin-left: 5px;
+			    }
+				li{
+				    float: left;
+				    list-style-type: none;
+				    padding: 10px;
+				    margin: 0px 9px;
+				    border-bottom: 3px solid rgb(55,205,219);
+				}
+				li:hover{
+					border-bottom: 3px solid white;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+.block2{
+	.carousel{
+		overflow: hidden;
+		position: relative;
+		background: rgb(244,244,244);
+		.blocks{
+			height: 400px;
+			width: 1000%;
+			.block-1{
+				background: rgb(244,244,244);
+				display: inline-block;
+				width: 100vw;
+				height: 100%;
+				transition: margin-left 300ms;
+				.wrapper{
+					width: 70%;
+					margin: auto;
+					height: 100%;
+					.left{
+						width: 50%;
+						float: left;
+						height: 100%;
+						.wrapper_left{
+							width: 100%;
+							display: inline-block;
+							position: relative;
+							.ui{
+							    position: absolute;
+							    padding: 79px;
+							    background: #33cf75;
+							    border-radius: 34%;
+							    display: inline-block;
+							    color: white;
+							    left: 49px;
+							    top: 82px;
+							    font-size: 28pt;
+							    font-weight: bold;
+							}
+							.ux{
+								position: absolute;
+								padding: 79px;
+								background: rgba(239,231,231,0.5);
+								color:red;
+								border-radius: 34%;
+							    display: inline-block;
+							    left: 186px;
+							    top: 82px;
+							    font-size: 28pt;
+							    font-weight: bold;
+							}
+						}
+					}
+					.right{
+						width: 50%;
+						float: left;
+						height: 100%;
+						.head{
+							 font-weight: bold;
+						    font-size: 17pt;
+						    line-height: 24pt;
+						    margin-top: 20%;
+						}
+						.body{
+							margin-top: 32px;
+	    					line-height: 24pt;
+						}
+					}
+				}
+			}
+		}
+		.buttons{
+			position: absolute;
+			bottom: 42px;
+			left: 50%;
+			.button{
+				padding: 7px;
+			    margin: 0px 6px;
+			    border-radius: 50%;
+				background: rgb(219,219,219);
+				float: left;
+				cursor: pointer;
+			}
+			.active{
+				background: rgb(170,170,170);
+			}
+		}
+	}
+}
+
+.block3{
+	background: white;
+	.head{
+		text-align: center;
+		padding-top: 100px;
+		div{
+			border-bottom: 3px #e0e0e0 solid;
+			display: inline-block;
+			padding: 5px; 
+			font-weight: bold;
+		}
+	}
+	.btn{
+		width: 213px;
+	    padding: 10px 0px;
+	    border-radius: 5px;
+	    text-align: center;
+		margin:auto;
+		border:2px solid #5ec2e7;
+		color: #5ec2e7;
+		margin-bottom: 100px;
+		cursor: pointer;
+	}
+	.images{
+		text-align: center;
+    	margin: 50px 0px 100px 0px;
+		.image{
+			padding: 70px 100px;
+			border-radius: 10%;
+			margin: 10px;
+		}
+		#img1{
+			background: url('../img/port1.png');
+		}
+		#img2{
+			background: url('../img/port2.png');
+		}
+		#img3{
+			background: url('../img/port1.png');
+		}
+		#img4{
+			background: url('../img/port2.png');
+		}
+		#img5{
+			background: url('../img/port1.png');
+		}
+		#img6{
+			background: url('../img/port2.png');
+		}
+		#img7{
+			background: url('../img/port1.png');
+		}
+		#img8{
+			background: url('../img/port2.png');
+		}
+	}
+	.imagecentr{
+		.imagec{
+			background: #5ec2e7;
+			padding:151px 210px;
+			border-radius: 10%;
+			margin: 10px;
+		}
+	}
+	.row1{
+		.imageleft{
+			display: inline-block;
+		}
+		.imagecentr{
+			display: inline-block;
+		}
+		.imageright{
+			display: inline-block;
+		}
+	}
+	.row2{
+		.image{
+			display: inline-block;
+		}
+	}
+}
+
+.block4{
+	background: rgb(244,244,244);
+	display: inline-block;
+	.head{
+		text-align: center;
+		padding-top: 100px;
+		div{
+			border-bottom: 3px #e0e0e0 solid;
+			display: inline-block;
+			padding: 5px; 
+			font-weight: bold;
+		}
+	}
+	.body{
+	    width: 65%;
+	    margin: 75px auto 0px auto;
+	    text-align: center;
+	    line-height: 26px;
+	    color: grey;
+	}
+	.skils{
+		width: 80%;
+		margin: auto;
+		text-align: center;
+    	margin-top: 100px;
+    	margin-bottom: 100px;
+		.circle{
+			display: inline-block;
+			margin: 0px 10px;
+			position: relative;
+			.percent{
+				position: absolute;
+			    top: 70px;
+			    font-size: 50px;
+			    font-weight: bold;
+			    left: 45px;
+			    font-family: MontserattM;
+			}
+			.legend{
+				position: absolute;
+				color: grey;
+				top:130px;
+				font-family: MontserattM;
+			}
+			#leg1{
+				left: 45px
+			}
+			#leg2{
+				left:60px;
+			}
+			#leg3{
+				left: 37px;
+			}
+			#leg4{
+				left:53px;
+			}
+			svg{
+				transform: rotate(270deg);
+				circle{
+					fill: none;
+					stroke-width: 3;
+					stroke-width:12px;
+				}
+			}
+			#svg1{
+				circle:nth-child(1){
+					stroke-dasharray: 33em;
+	    			stroke-dashoffset: 3em;
+	    			stroke: #35afba;
+				}
+			}
+			#svg2{
+				circle:nth-child(1){
+					stroke-dasharray: 33em;
+	    			stroke-dashoffset: 3em;
+	    			stroke: #34cf75;
+				}
+			}
+			#svg3{
+				circle:nth-child(1){
+					stroke-dasharray: 30em;
+	    			stroke-dashoffset: 5em;
+	    			stroke: #28ae61;
+				}
+			}
+			#svg4{
+				circle:nth-child(1){
+					stroke-dasharray: 30em;
+	    			stroke-dashoffset: 5em;
+	    			stroke: #5ea8d9;
+				}
+			}
+		}
+	}
+}
+
+.block5{
+	.content{
+		margin: 100px 0px 100px 0px;
+		.left{
+			display: inline-block;
+			width: 50%;
+			.title{
+				float: right;
+				width: 50%;
+				margin-left:50%;
+				font-size: 30px;
+    			margin-bottom: 30px;
+			}
+			.text{
+				float: right;
+				color:grey;
+				width: 50%;
+				margin-left: 50%;
+				line-height: 30px;
+				.btn{
+					width: 213px;
+				    padding: 10px 0px;
+				    border-radius: 5px;
+				    text-align: center;
+					border:2px solid #5ec2e7;
+					color: #5ec2e7;
+					cursor: pointer;
+					margin-top: 30px;
+				}
+			}
+		}
+		.right{
+			width: 50%;
+			display: inline-block;
+		}
+	}
+}
+
+@font-face{
+    font-family: MontserattM;
+    src: url('../fonts/Montserrat-Medium.ttf');
+}

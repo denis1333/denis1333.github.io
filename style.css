@@ -7,6 +7,16 @@ body{
 	background: url("img/p1.png");
 }
 
+.header{
+	background: url("img/header.jpg");
+	background-attachment: fixed;
+	display: inline-block;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 25px 0px 25px 0px;
+}
+
 h1{
 	text-align: center;
     font-size: 70px;
