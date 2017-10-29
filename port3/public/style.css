@@ -2586,6 +2586,7 @@ body {
 .block4 {
   background: #f4f4f4;
   display: inline-block;
+  width: 100%;
 }
 .block4 .head {
   text-align: center;
@@ -2672,10 +2673,13 @@ body {
 }
 .block5 .content {
   margin: 100px 0px 100px 0px;
+  display: flex;
 }
 .block5 .content .left {
   display: inline-block;
   width: 50%;
+  margin: auto;
+  margin-right: 30px;
 }
 .block5 .content .left .title {
   float: right;
@@ -2702,8 +2706,63 @@ body {
   margin-top: 30px;
 }
 .block5 .content .right {
-  width: 50%;
+  width: 49%;
   display: inline-block;
+  margin: auto;
+}
+.block5 .content .right .year {
+  margin: 5px 0px 5px 0px;
+}
+.block5 .content .right .line {
+  border-left: 2px solid #d4d4d4;
+  position: relative;
+  margin-left: 20px;
+}
+.block5 .content .right .line #logo1 {
+  background-image: url('public1929d8a37ab2715d52f4d1a6af446892.png');
+}
+.block5 .content .right .line #logo2 {
+  background-image: url('publicf343bedc485d0e3b1847417fd1b97bd6.png');
+}
+.block5 .content .right .line #logo3 {
+  background-image: url('public81de3bfbdb7c283b2adaf454915fa2ab.png');
+}
+.block5 .content .right .line #logo4 {
+  background-image: url('public2c7ea7ffd3bbdb3ef2bfd48308345802.png');
+}
+.block5 .content .right .line .img {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  margin-left: 20px;
+}
+.block5 .content .right .line .wrapper {
+  display: inline-block;
+  width: 50%;
+}
+.block5 .content .right .line .wrapper .title1 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.block5 .content .right .line .wrapper .title2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.block5 .content .right .line .wrapper .text {
+  font-size: 13px;
+  color: #d4d4d4;
+  margin-bottom: 30px;
+}
+.block5 .content .right .line .circle {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #d4d4d4;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  left: -14px;
+  top: 30px;
 }
 @font-face {
   font-family: MontserattM;

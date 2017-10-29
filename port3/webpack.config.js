@@ -1,7 +1,7 @@
 'use strict';
 
 const NODE_ENV = process.env.NODE_ENV || 'development';
-const webpack = require('webpack');
+const webpack = require('webpack'); // локальн установлен для модулей
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
@@ -35,7 +35,7 @@ module.exports = {
 			},
 			{
                 test: /\.less$/,
-                loader: ExtractTextPlugin.extract({
+                loader: ExtractTextPlugin.extract({// плагин нужен что бы вынести less в отдельный файл из js файлов
 	                use: [{
 	                    loader: "css-loader"
 	                }, {
