@@ -1,8 +1,16 @@
 $( document ).ready(function() {
-  $('.button').click(function(){
-    $('.button').removeClass('active');
+  var c1btn = $('#c1').find('.button');
+  c1btn.click(function(){
+    c1btn.removeClass('active');
     $(this).addClass('active');
-    $(".block-1:first").css('margin-left', ($(this).data('num')-1)*-100+"vw")
+    $("#c1blockStart").css('margin-left', ($(this).data('num')-1)*-100-($(this).data('num')-1)*0.5+"vw")
+  })
+
+  var c2btn = $('#c2').find('.button');
+  c2btn.click(function(){
+    c2btn.removeClass('active');
+    $(this).addClass('active');
+    $("#c2blockStart").css('margin-left', ($(this).data('num')-1)*-100-($(this).data('num')-1)*0.5+"vw")
   })
 
   $('.image').hover(function(){

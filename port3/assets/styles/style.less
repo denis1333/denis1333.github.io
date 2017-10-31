@@ -453,6 +453,151 @@ body{
 	}
 }
 
+.block6{
+		.carousel{
+		overflow: hidden;
+		position: relative;
+		background: #ff605f;
+		.blocks{
+			height: 200px;
+			width: 300%;
+			.block-1{
+				background: #ff605f;
+				display: inline-block;
+				width: 100vw;
+				height: 100%;
+				transition: margin-left 300ms;
+				text-align: center;
+				margin: 0px;
+				.wrapper{
+					margin: 60px auto 0px auto;
+					width: 60%;
+					.text{
+						text-align: center;
+						color: white;
+						font-style: italic;
+						margin-bottom: 10px;
+						font-size: 19px 
+					}
+					.smalltext{
+						text-align: center;
+						color: #d4d4d4;
+						font-style: italic;
+						font-size: 14px;
+					}
+				}
+			}
+		}
+		.buttons{
+			position: absolute;
+			bottom: 42px;
+			left: 47%;
+			.button{
+				padding: 7px;
+			    margin: 0px 6px;
+			    border-radius: 50%;
+				background: rgb(219,219,219);
+				float: left;
+				cursor: pointer;
+			}
+			.active{
+				background: rgb(170,170,170);
+			}
+		}
+	}
+}
+
+.block7{
+	.head{
+		text-align: center;
+		padding-top: 100px;
+		margin-bottom: 100px;
+		div{
+			border-bottom: 3px #e0e0e0 solid;
+			display: inline-block;
+			padding: 5px; 
+			font-weight: bold;
+		}
+	}
+	.content{
+		margin-bottom: 100px;
+		.left{
+			display: inline-block;
+			width: 50%;
+			.title{
+				color: #e0e0e0;
+				font-weight: bold;
+			}
+		}
+		.right{
+			display: inline-block;
+			width: 49%;
+			.title{
+				color: #e0e0e0;
+				font-weight: bold;
+				font-size: 14px;
+			}
+			.loc{
+				margin-bottom: 50px;
+				.title{
+					margin-bottom: 25px;
+				}
+				.text{
+					width: 35%;
+					font-size: 14px;
+				}
+			}
+			.soc{
+				.socBtn{
+					opacity: 0.3;
+					.title{
+    					margin-left: 5px;
+    					margin-bottom: 25px;
+					}
+					&:hover{
+						opacity:1;
+						cursor: pointer;
+					}
+					.imgSoc{
+						width: 48px;
+						height: 48px;
+						background-repeat: no-repeat;
+    					background-position: center;
+    					display: inline-block;
+					}
+					.textSoc{
+						width: 50%;
+						display: inline-block;
+						line-height: 48px;
+						vertical-align: top;
+						font-size: 13px
+					}
+					#face{
+						background-image: url('../img/facebook.png');
+					}
+					#link{
+						background-image: url('../img/linkedin.png');
+					}
+					#rss{
+						background-image: url('../img/RSS.png');
+					}
+					#google{
+						background-image: url('../img/google +.png');
+					}
+					#twitt{
+						background-image: url('../img/twitter .png');
+					}
+				}
+			}
+		}
+	}	
+}
+
+.block8{
+	background-image: url('../img/Map.png');
+	height: 300px;
+}
+
 @font-face{
     font-family: MontserattM;
     src: url('../fonts/Montserrat-Medium.ttf');
